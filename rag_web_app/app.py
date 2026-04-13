@@ -47,7 +47,7 @@ def chat_with_rag(user_message):
         "role": "user",
         "content": user_message
     })
-    system_prompt = f"""You are a helpful healthcare AI assistant for Elevance Health.
+    system_prompt = f"""You are a helpful healthcare AI assistant.
 Answer questions based on the context provided below.
 If the answer isn't in the context, say you don't have that information.
 Always be accurate and professional when discussing patient or medical information.
